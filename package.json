@@ -2,7 +2,7 @@
   "name": "my-webpack-project",
   "version": "1.0.0",
   "description": "My webpack project",
-  "main": "app.ts",
+  "main": "index.ts",
   "repository": "https://github.com/MatthijsvanderPlas/ts-map-app.git",
   "author": "matthijsvanderplas <mvdplas84@ziggo.nl>",
   "license": "MIT",
@@ -31,5 +31,10 @@
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/mapbox-gl": "^2.7.10",
+    "axios": "^1.2.2",
+    "mapbox-gl": "^2.12.0"
+  }
 }
